@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import Button from "./components/Button";
-import "./assets/css/style.css";
+import "./assets/css/app.scss";
 
-export default class App extends Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -25,6 +25,7 @@ export default class App extends Component {
   render() {
     let { count } = this.state;
     return (
+    <React.Fragment>
       <div className="app">
         <div>
           <div class="count">
@@ -37,6 +38,8 @@ export default class App extends Component {
           </div>
         </div>
       </div>
+    </React.Fragment>
     );
   }
 }
+
