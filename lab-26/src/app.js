@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import Button from "./components/Button";
-import "./assets/css/app.scss";
+import "./app.scss";
 
-class App extends Component {
-  constructor() {
-    super();
+class App extends React.Component {
+  constructor(props) {
+    super(props);
     this.state = {
       count: 0
     };
@@ -43,3 +43,4 @@ class App extends Component {
   }
 }
 
+export default App;
