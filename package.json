@@ -1,0 +1,26 @@
+{
+  "name": "React",
+  "version": "1.0.0",
+  "description": "Second half of 401 JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexrpedersen/React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexrpedersen/React/issues"
+  },
+  "homepage": "https://github.com/alexrpedersen/React#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  }
+}
