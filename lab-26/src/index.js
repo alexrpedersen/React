@@ -1,8 +1,8 @@
   
 import React from "react";
 import ReactDOM from "react-dom";
-import "../styles.css";
-import App from "./app.js";
+import "../app.scss";
+import App from "../src/app.js";
 
 class Main extends React.Component {
 
